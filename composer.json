@@ -1,0 +1,20 @@
+{
+    "name": "punn/registry",
+    "description": "A registry package for storing values based on keys for Laravel v4. Kind of like view::share but reachable in all MVC",
+    "authors": [
+        {
+            "name": "Erik Omlid",
+            "email": "erik@madfeller.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Punn\\Registry": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
